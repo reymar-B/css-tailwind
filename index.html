@@ -4,21 +4,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+
+    <title>test tasks</title>
 </head>
 <body>
-    <div class="md:container md:mx-auto">
+    <div class="">
+        <!-- header -->
+        <div id="header">
+            <!-- registration -->
+            <div id="registration" class="h-16 bg-blue-600 flex justify-center items-center w-full">
+                <button type="button" class="md-inline bg-white text-black-200 rounded hover:bg-gray-100 px-4 py-0.5 focus:outline-none mx-5 rounded-full">
+                    REGISTER NOW
+                </button>
+                <span class="text-base font-light text-white">
+                        Happy birthday, App Framework! How to build integrations with Contentful
+                </span>
+            </div>
+            <!-- /registration -->
+            <!-- search bar -->
+            <div id="search-bar" class="grid grid-cols-5 flex justify-center items-center md:container md:mx-auto">
+                <div class="tag-line bg-red-100">
+                    <span class=""> NOTHING HELD BACK <img class="inline" src="images/plus.png" alt="plus.png"></span>
+                </div>
+                <div class="flex justify-center items-center bg-gray-200 px-2">
+                    <img class="inline" src="images/search.png" alt="search.png">
+                    <input class="inline h-9 w-full bg-gray-200" type="search">
+                </div>
+                <div class="bg-blue-100">
+                    <button type="button" class="inline border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-gray-200 rounded px-4">WERE HIRING</button>
+                    <button type="button" class="inline bg-yellow-400 text-black-500 rounded hover:bg-yellow-300 px-4">NEED HELP</button>
+                </div>
+                <div>
+                    <img class="inline mx-5 w-8" src="images/Vector.png" alt="Vector.png">
+                    <img class="inline mx-5 w-8" src="images/Vector02.png" alt="Vector02.png">
+                </div>
+                <div class="bg-yellow-100">
+                    <span class="inline mx-5">Welcome Back, <strong>Alen</strong></span>
+                    <img class="inline w-2" src="images/Rectangle.png" alt="Rectangle.png">
+                    <img class="inline w-8 rounded-full" src="images/Profile.png" alt="Profile.png">
+                </div>
+            </div>
+            <!-- /search bar -->
+            <!-- nav bar -->
+            <div class="grid grid-cols-9 md:container md:mx-auto">
+                <div>Today NHB</div>                
+                <div>My Programs</div>                
+                <div>Training Calls</div>                
+                <div>The Roledex</div>                
+                <div>Resources</div>                
+                <div>Integration Network</div>                
+                <div>Swipes</div>                
+                <div>Job Board</div>                
+                <div>The Community</div>                
+            </div>
+            <!-- /nav bar -->
+        </div>
+        <!-- /header -->
+        <!-- main -->
+        <div class="md:flex md:container md:mx-auto h-full">
+            <!-- aside -->
+            <div class="md:w-1/3">
+                <div class="h-44 w-full flex justify-center items-center">
+                    <div>1</div>
+                </div>
+                <div class="h-44 w-full flex justify-center items-center">
+                    <div>2</div>
+                </div>
+                <div class="h-44 w-full flex justify-center items-center">
+                    <div>3</div>
+                </div>
+            </div>
+            <!-- /aside -->
+            <!-- main content -->
+            <div class="md:w-3/4">
+                <div>
+                    <span class="text-3xl">
+                        Hey Alen, Welcome to your 7-Day Fast Start
+                    </span>
+                    <div id="vlog-div" class="w-full h-72 bg-green-100">
+                    </div>
+                    <div class="flex">
+                        <span class="text-2xl">PUBG Mobile x Godzilla vs. Kong Trailer - Official Trailer</span>
+                        <button type="button" class="bg-blue-600 text-gray-200 rounded hover:bg-blue-500 px-4 py-2 focus:outline-none">Primary</button>
+                    </div>
+                    <div id="views" class="flex">
+                        <span class="inline">13,741 views <p class="inline">May 11, 2021</p> </span> 
+                        <span class="inline">File Format: MP4 | File Size: 852 MB</span>
+                    </div>
+                    <div id="views">
+                        <span>Alen Sultanic</span> 
+                        <span><strong>CALL TYPE:</strong>EXPERT TRAINING</span>
+                        <span><strong>DATE OF CALL:</strong>MAY 12TH, 2021</span>
+                        <span><strong>TIME OF CALL:</strong>11:00 A.M. EST</span>
+                    </div>
+                    <div>Nothing Held Back Coach</div>
+                    <div>
+                        Godzilla, Kong, and Mechagodzilla arrive in PUBG Mobile's version 1.4 update which also brings microcosm gameplay, a new vehicle,
+                        Hangar which is new arena map available beginning June 1, and more. Check out the trailer. Godzilla, Kong and Mechagodzilla join
+                        the Battle Royale as non-hostile characters that may bring Titan Crystals, destroy Apex Cybernetics and Monster Settlements and 
+                        drop enhancement items in the Erangel, Sanhok and Livk maps respectively. The Version 1.4 update is available now.
+                    </div>
+                    <a href="">show more...</a>
+                    <div class="flex">
+                        <button class="bg-blue-600 text-gray-200 rounded hover:bg-blue-500 px-4 py-2 focus:outline-none">SIGN UP FOR THE NEXT CALL</button>
+                        <button class="inline">Go to Next Lesson <img class="inline" src="images/Arrow.png" alt="Arrow.png"></button>
+                    </div>
+                    <div class="flex flex justify-start items-center">
+                        <span>334</span>
+                        <span>Comments</span>
+                        <span><img src="images/Sort.png" alt="Sort.png"></span>
+                        <span>SORT BY</span>
+                    </div>
+                </div>
+            </div>
+            <!-- main content -->
+        </div>
+        <!-- /main -->
+        <!-- footer -->
         <div>
-
+            <div class="md:flex md:container md:mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-1 h-full w-full">
+                    <div class="">1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                </div>
+            </div>
+            <div class="h-20 bg-blue-100">
+                <div>2</div>
+            </div>
         </div>
-        <div class="md:flex">
-            <div class="w-full md:w-1/3 bg-green-200">First Column</div>
-            <div class="w-full md:w-3/4 bg-blue-400">second Column</div>
-        </div>
-        <div>
-
-        </div>
+        <!-- /footer -->
     </div>
 </body>
 </html>

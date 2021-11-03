@@ -1,0 +1,11 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#registration button{
+    font-weight: 300;
+    font-size: small;
+}
+#search-bar span.tag-line{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
