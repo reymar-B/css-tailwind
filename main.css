@@ -1,11 +1,44 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(216, 195, 236);
+    padding: 0;
+    margin: 0;
 }
 #registration button{
     font-weight: 300;
-    font-size: small;
 }
-#search-bar span.tag-line{
+#tag-line{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    background: url("images/plus.png");
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+#input-search{
+    background: url("images/search.png");
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+}
+#welcome-back span{
+    background: url("images/Rectangle.png");
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+#searchBar-icon .first-icon{
+    background: url("images/Vector.png");
+    background-repeat: no-repeat;
+    display: block;
+    display: inline-block;
+    background-size: contain;
+    height: 25px;
+    width: 25px;
+}
+#searchBar-icon .second-icon{
+    background: url("images/Vector02.png");
+    background-repeat: no-repeat;
+    display: block;
+    display: inline-block;
+    background-size: contain;
+    height: 25px;
+    width: 25px;
 }

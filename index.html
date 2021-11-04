@@ -13,46 +13,44 @@
     <title>test tasks</title>
 </head>
 <body>
-    <div class="">
+    <div class="w-full">
         <!-- header -->
-        <div id="header">
-            <!-- registration -->
-            <div id="registration" class="h-16 bg-blue-600 flex justify-center items-center w-full">
-                <button type="button" class="md-inline bg-white text-black-200 rounded hover:bg-gray-100 px-4 py-0.5 focus:outline-none mx-5 rounded-full">
-                    REGISTER NOW
-                </button>
-                <span class="text-base font-light text-white">
-                        Happy birthday, App Framework! How to build integrations with Contentful
-                </span>
-            </div>
-            <!-- /registration -->
+        <!-- registration -->
+        <div id="registration" class="h-16 bg-blue-600 flex justify-center items-center w-full">
+            <button type="button" class="text-xs md:text-base bg-white text-gray-600 rounded hover:bg-gray-100 px-4 py-0.5 focus:outline-none mx-5 rounded-full">
+                REGISTER NOW
+            </button>
+            <span class="text-xs lg:text-base font-light text-white">
+                    Happy birthday, App Framework! How to build integrations with Contentful
+            </span>
+        </div>
+        <!-- /registration -->
+        <div class="md:container md:mx-auto">
             <!-- search bar -->
-            <div id="search-bar" class="grid grid-cols-5 flex justify-center items-center md:container md:mx-auto">
-                <div class="tag-line bg-red-100">
-                    <span class=""> NOTHING HELD BACK <img class="inline" src="images/plus.png" alt="plus.png"></span>
+            <div id="search-bar" class="flex justify-between items-center py-2">
+                <div id="tag-line" class="pr-5 mr-3">
+                    NOTHING HELD BACK
                 </div>
-                <div class="flex justify-center items-center bg-gray-200 px-2">
-                    <img class="inline" src="images/search.png" alt="search.png">
-                    <input class="inline h-9 w-full bg-gray-200" type="search">
-                </div>
-                <div class="bg-blue-100">
-                    <button type="button" class="inline border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-gray-200 rounded px-4">WERE HIRING</button>
-                    <button type="button" class="inline bg-yellow-400 text-black-500 rounded hover:bg-yellow-300 px-4">NEED HELP</button>
+                <div class="bg-gray-200 rounded h-9 w-1/4 mx-2">
+                    <input id="input-search" class="h-full w-full" type="search">
                 </div>
                 <div>
-                    <img class="inline mx-5 w-8" src="images/Vector.png" alt="Vector.png">
-                    <img class="inline mx-5 w-8" src="images/Vector02.png" alt="Vector02.png">
+                    <button type="button" class=" border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-gray-200 rounded mx-3 py-1 px-2 text-base">WERE HIRING</button>
+                    <button type="button" class=" bg-yellow-400 text-black-500 rounded hover:bg-yellow-300 mx-3 px-2 py-1 text-base">NEED HELP?</button>
                 </div>
-                <div class="bg-yellow-100">
-                    <span class="inline mx-5">Welcome Back, <strong>Alen</strong></span>
-                    <img class="inline w-2" src="images/Rectangle.png" alt="Rectangle.png">
-                    <img class="inline w-8 rounded-full" src="images/Profile.png" alt="Profile.png">
+                <div id="searchBar-icon" class="">
+                    <a class="first-icon mx-5" href="#"></a>
+                    <a class="second-icon mx-5" href="#"></a>
+                </div>
+                <div id="welcome-back" class="w-1/4">
+                    <span class="inline px-5 mx-2 ">Welcome Back, <strong >Alen</strong></span>
+                    <img class="inline ml-5 w-9 rounded-full" src="images/Profile.png" alt="Profile.png">
                 </div>
             </div>
             <!-- /search bar -->
             <!-- nav bar -->
-            <div class="grid grid-cols-9 md:container md:mx-auto">
-                <div>Today NHB</div>                
+            <div class="flex justify-between items-center h-12">
+                <div class="">Today NHB</div>                
                 <div>My Programs</div>                
                 <div>Training Calls</div>                
                 <div>The Roledex</div>                
@@ -69,15 +67,52 @@
         <div class="md:flex md:container md:mx-auto h-full">
             <!-- aside -->
             <div class="md:w-1/3">
-                <div class="h-44 w-full flex justify-center items-center">
-                    <div>1</div>
+                <!-- fast start section -->
+                <div class="w-full">
+                    <h5>7-Day Fast Start</h5>
+                    <span></span>
+                    <p>20% Complete</p>
+                    <p>Day 1 | 7-Figure Math + AC Formula</p>
+                    <ul>
+                        <li>Day 2 | Pick a market</li>
+                        <li>Day 3 | Your superpower</li>
+                        <li>Day 4 | Your disruptive idea</li>
+                        <li>Day 5 | Front end sales funnel</li>
+                        <li>Day 6 | Back end sales funnel</li>
+                        <li>Day 7 | Scaling your offer</li>
+                    </ul>
                 </div>
-                <div class="h-44 w-full flex justify-center items-center">
-                    <div>2</div>
+                <!-- fast start section -->
+                <!-- need help section -->
+                <div>
+                    <h5>Need Help?</h5>
+                    <img src="" alt="">
+                    <p>AVAILABLE</p>
+                    <h3>Alen Sulfuric</h3>
+                    <span>
+                        <p>
+                            Motivational Speaker & Influence Expert
+                        </p>
+                    </span>
+                    <button>Chat With Us</button>
+                    <p>Or Call Us at +1 (800) 444 2041</p>
                 </div>
-                <div class="h-44 w-full flex justify-center items-center">
-                    <div>3</div>
+                <!-- /need help section -->
+                <!-- NHB section -->
+                <div>
+                    <img src="" alt="">
+                    <h5>Want Our Help Getting 100+ Sales Per Day?</h5>
+                    <ul>
+                        <li>What you get when you join</li>
+                        <li>Weekly group coaching calls with us</li>
+                        <li>Entire Automatic Clients course</li>
+                        <li>All templates, scripts, sales funnels, etc</li>
+                        <li>Emails & SMS sequences, etc</li>
+                    </ul>
+                    <button>Apply to Join Now</button>
+                    <p>Price Increase soon.</p>
                 </div>
+                <!-- NHB section -->
             </div>
             <!-- /aside -->
             <!-- main content -->
@@ -112,14 +147,109 @@
                     <a href="">show more...</a>
                     <div class="flex">
                         <button class="bg-blue-600 text-gray-200 rounded hover:bg-blue-500 px-4 py-2 focus:outline-none">SIGN UP FOR THE NEXT CALL</button>
-                        <button class="inline">Go to Next Lesson <img class="inline" src="images/Arrow.png" alt="Arrow.png"></button>
+                        <a class="">Go to Next Lesson <img class="inline" src="images/Arrow.png" alt="Arrow.png"></a>
                     </div>
                     <div class="flex flex justify-start items-center">
-                        <span>334</span>
-                        <span>Comments</span>
-                        <span><img src="images/Sort.png" alt="Sort.png"></span>
-                        <span>SORT BY</span>
+                        <p>334</p>
+                        <p>Comments</p>
+                        <img src="images/Sort.png" alt="Sort.png">
+                        <p>SORT BY</p>
                     </div>
+                    <div class="flex items-center">
+                        <img class="inline px-8" src="images/Img01.png" alt="Img01.png">
+                        <h6 class="inline w-full border-b-2 border-gray-400 py-1">Add a public comment...</h6>
+                    </div>
+                    <!-- comments section -->
+                    <div>
+                        <div class="flex items-center">
+                            <img class="inline px-8" src="images/M-icon.png" alt="M-icon.png">
+                            <span>
+                                Mike_Fails_at_games
+                                <p class="inline"> 1 hour ago</p>
+                                <p>At this rate why not have Kong and Godzilla show up as MK11 dlc</p>
+                            </span>
+                        </div>
+                        <div class="flex">
+                            <div>
+                                <button> like </button> <span>123</span>
+                            </div>
+                            <div>
+                                <button> dislike </button> <span>123</span>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#"> View 1 reply</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center">
+                            <img class="inline px-8" src="images/M-icon.png" alt="M-icon.png">
+                            <span>
+                                ShadowXBlaster
+                                <p class="inline"> 1 hour ago</p>
+                                <p>A game which is a great example of "Nothing like what was shown".</p>
+                            </span>
+                        </div>
+                        <div class="flex">
+                            <div>
+                                <button> like </button> <span>123</span>
+                            </div>
+                            <div>
+                                <button> dislike </button> <span>123</span>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#"> View 1 reply</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center">
+                            <img class="inline px-8" src="images/M-icon.png" alt="M-icon.png">
+                            <span>
+                                NyX
+                                <p class="inline"> 1 hour ago</p>
+                                <p>Someone just make a Monster Fighting Game and give us Godzilla vs Kong in Game Form</p>
+                            </span>
+                        </div>
+                        <div class="flex">
+                            <div>
+                                <button> like </button> <span>123</span>
+                            </div>
+                            <div>
+                                <button> dislike </button> <span>123</span>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#"> View 1 reply</a>
+                        </div>
+                    </div>
+                    <!-- /comments section -->
+                    <!-- download resources section -->
+                    <div>
+                        <button>buttto</button>
+                        <h5>hi</h5>
+                        <div>
+                            <a href="#">1</a>
+                        </div>
+                        <div>
+                            <a href="#">2</a>
+                        </div>
+                        <div>
+                            <a href="#">3</a>
+                        </div>
+                    </div>
+                    <!-- /download resources section -->
+                    <!-- apply section -->
+                    <div>
+                        <h5>Apply to join</h5>
+                        <h2>The NHB Mastermind</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae non sodales tristique.
+                            In blandit consequat diam enim aliquet sodales. Venenatis malesuada mauris suspendisse vel lectus. 
+                            Quam tincidunt volutpat a commodo eget nec.
+                        </p>
+                        <button class="bg-green-500 text-gray-100 rounded hover:bg-green-400 px-4 py-2 focus:outline-none">Click Here To Apply</button>
+                    </div>
+                    <!-- /apply section -->
                 </div>
             </div>
             <!-- main content -->
@@ -127,18 +257,62 @@
         <!-- /main -->
         <!-- footer -->
         <div>
-            <div class="md:flex md:container md:mx-auto">
+            <div class="md:container md:mx-auto">
+                <!-- footer menus -->
                 <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-1 h-full w-full">
-                    <div class="">1</div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
-                    <div>5</div>
-                    <div>6</div>
+                    <div class="flex flex-col">
+                        <h6>Today NHB</h6>
+                        <a href="#">Free Programs</a>
+                        <a href="#">Newsletter</a>
+                        <a href="#">Testimonials</a>
+                    </div>
+                    <div class="flex flex-col">
+                        <h6>Calendar Call</h6>
+                        <a href="#">Trainning Call</a>
+                        <a href="#">Book a Call</a>
+                    </div>
+                    <div class="flex flex-col">
+                        <h6>My Programs</h6>
+                        <a href="#">Advance Aqcuisiton</a>
+                        <a href="#">7-Days Fast Start</a>
+                    </div>
+                    <div class="flex flex-col">
+                        <h6>The Community</h6>
+                        <a href="#">The Roledex</a>
+                        <a href="#">Resource</a>
+                        <a href="#">Integration Network</a>
+                        <a href="#">Swipes</a>
+                        <a href="#">Job Board</a>
+                    </div>
+                    <div class="flex flex-col">
+                        <h6>Profile</h6>
+                        <a href="#">Subscriptions</a>
+                        <a href="#">Billing</a>
+                        <a href="#">Documents</a>
+                    </div>
+                    <div class="flex flex-col">
+                        <h6>Support</h6>
+                        <a href="#">We’re Hiring</a>
+                        <a href="#">Email Us</a>
+                        <a href="#">Youtube</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
                 </div>
-            </div>
-            <div class="h-20 bg-blue-100">
-                <div>2</div>
+                <!-- /footer menus -->
+                <!-- buttom footer -->
+                <div class="h-20">
+                    <span>NOTHING HELD BACK</span>
+                    <span>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                    </span>
+                </div>
+                <!-- buttom footer -->
             </div>
         </div>
         <!-- /footer -->
