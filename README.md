@@ -1,2 +1,3 @@
 # my-test
- html/css test tasks
+ html/css test tasks using tailwind
+
