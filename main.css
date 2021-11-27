@@ -1,6 +1,5 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: aqua;
 }
 #registration button{
     font-weight: 300;
@@ -37,12 +36,12 @@ body{
     background-size: contain;
 }
 #nav-bar .my-programs{
-    background: url("images/Vector\ 613.png");
+    background: url("images/Vector613.png");
     background-repeat: no-repeat;
     background-position: 100% 50%;
 }
 #nav-bar .swipes{
-    background: url("images/Vector\ 614.png");
+    background: url("images/Vector614.png");
     background-repeat: no-repeat;
     background-position: 100% 50%;
 }
