@@ -1,3 +1,3 @@
 # my-test
- html/css test tasks using tailwind
+ html/css template using tailwind
 
