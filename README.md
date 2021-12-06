@@ -1,3 +1,3 @@
-# my-test
+# Personal project
  html/css template using tailwind
 
